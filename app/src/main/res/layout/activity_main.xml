@@ -10,7 +10,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:scaleType="centerCrop"
-    android:src="@drawable/back"/>
+    android:src="@drawable/backx"/>
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -24,8 +24,6 @@
             android:layout_alignParentTop="true"
             android:alpha=".9"
             android:layout_marginTop="45dp"/>
-
-
 
 
     <TextView
