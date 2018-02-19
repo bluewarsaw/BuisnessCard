@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Project1</string>
+    <string name="studioname">Lightsky Studio</string>
+    <string name="street">Winnie the Pooh 7</string>
+    <string name="contact">lightsky.pl</string>
+    <string name="hours">11:11 - 22:00</string>
+
+
+</resources>

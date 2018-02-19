@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pl.sebastianczarnecki.project1.MainActivity">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop"
+    android:src="@drawable/back"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/slide_up"
+            android:layout_alignParentTop="true"
+            android:alpha=".9"
+            android:layout_marginTop="45dp"/>
+
+
+
+
+    <TextView
+        android:id="@+id/Light"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha=".97"
+        android:background="@drawable/back4"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:text="@string/studioname"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/fonts"/>
+
+        <TextView
+            android:id="@+id/Light2"
+            android:layout_below="@id/Light"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha=".97"
+            android:background="@drawable/back4"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="@string/contact"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/fonts"
+            />
+
+
+
+        <TextView
+            android:id="@+id/Light3"
+            android:layout_below="@id/Light2"
+            android:layout_marginTop="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha=".92"
+            android:background="@drawable/back2"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="@string/street"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/red"
+            android:fontFamily="@font/fonts"
+            />
+
+        <TextView
+            android:id="@+id/Light4"
+            android:layout_below="@id/Light3"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha=".87"
+            android:background="@drawable/back3"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="@string/hours"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/blue"
+            android:fontFamily="@font/fonts"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
